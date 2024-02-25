@@ -1,0 +1,29 @@
+[0.615s] Invoking command in '/home/wyatt/ros2_ws/src/herding_v1_package': PYTHONPATH=/home/wyatt/ros2_ws/build/herding_v1_package/prefix_override:/home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/herding_v1_package build --build-base /home/wyatt/ros2_ws/build/herding_v1_package/build install --record /home/wyatt/ros2_ws/build/herding_v1_package/install.log --single-version-externally-managed
+[0.791s] running egg_info
+[0.792s] writing ../../build/herding_v1_package/herding_v1_package.egg-info/PKG-INFO
+[0.792s] writing dependency_links to ../../build/herding_v1_package/herding_v1_package.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/herding_v1_package/herding_v1_package.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/herding_v1_package/herding_v1_package.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/herding_v1_package/herding_v1_package.egg-info/top_level.txt
+[0.794s] reading manifest file '../../build/herding_v1_package/herding_v1_package.egg-info/SOURCES.txt'
+[0.795s] writing manifest file '../../build/herding_v1_package/herding_v1_package.egg-info/SOURCES.txt'
+[0.795s] running build
+[0.795s] running build_py
+[0.795s] copying herding_v1_package/herding_node.py -> /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package
+[0.796s] copying herding_v1_package/simulation.py -> /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package
+[0.796s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.796s]   warnings.warn(
+[0.796s] running install
+[0.796s] running install_lib
+[0.796s] copying /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package/herding_node.py -> /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package
+[0.796s] copying /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package/simulation.py -> /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package
+[0.797s] byte-compiling /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package/herding_node.py to herding_node.cpython-310.pyc
+[0.797s] byte-compiling /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package/simulation.py to simulation.cpython-310.pyc
+[0.798s] running install_data
+[0.798s] running install_egg_info
+[0.799s] removing '/home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.800s] Copying ../../build/herding_v1_package/herding_v1_package.egg-info to /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package-0.0.0-py3.10.egg-info
+[0.800s] running install_scripts
+[0.815s] Installing herding_node script to /home/wyatt/ros2_ws/install/herding_v1_package/lib/herding_v1_package
+[0.815s] writing list of installed files to '/home/wyatt/ros2_ws/build/herding_v1_package/install.log'
+[0.832s] Invoked command in '/home/wyatt/ros2_ws/src/herding_v1_package' returned '0': PYTHONPATH=/home/wyatt/ros2_ws/build/herding_v1_package/prefix_override:/home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/herding_v1_package build --build-base /home/wyatt/ros2_ws/build/herding_v1_package/build install --record /home/wyatt/ros2_ws/build/herding_v1_package/install.log --single-version-externally-managed

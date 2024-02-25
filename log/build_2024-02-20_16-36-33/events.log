@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (herding_v1_package) JobQueued: {'identifier': 'herding_v1_package', 'dependencies': OrderedDict()}
+[0.000454] (herding_v1_package) JobStarted: {'identifier': 'herding_v1_package'}
+[0.098435] (-) TimerEvent: {}
+[0.199467] (-) TimerEvent: {}
+[0.299971] (-) TimerEvent: {}
+[0.400979] (-) TimerEvent: {}
+[0.501977] (-) TimerEvent: {}
+[0.602920] (-) TimerEvent: {}
+[0.704376] (-) TimerEvent: {}
+[0.805177] (-) TimerEvent: {}
+[0.905979] (-) TimerEvent: {}
+[1.006756] (-) TimerEvent: {}
+[1.088392] (herding_v1_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/herding_v1_package', 'build', '--build-base', '/home/wyatt/ros2_ws/build/herding_v1_package/build', 'install', '--record', '/home/wyatt/ros2_ws/build/herding_v1_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/wyatt/ros2_ws/src/herding_v1_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wyatt', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/wyatt', 'OLDPWD': '/home/wyatt', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1308', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/wyatt/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wyatt', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wyatt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wyattVM:@/tmp/.ICE-unix/1284,unix/wyattVM:/tmp/.ICE-unix/1284', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e435ff24_b2dc_4684_8f58_f9543e968dfc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.90VGJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wyatt/ros2_ws/install/herding_v1_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wyatt/ros2_ws/build/herding_v1_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wyatt/ros2_ws/build/herding_v1_package/prefix_override:/home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages:/home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.106994] (-) TimerEvent: {}
+[1.207939] (-) TimerEvent: {}
+[1.308789] (-) TimerEvent: {}
+[1.409781] (-) TimerEvent: {}
+[1.433763] (herding_v1_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.437023] (herding_v1_package) StdoutLine: {'line': b'writing ../../build/herding_v1_package/herding_v1_package.egg-info/PKG-INFO\n'}
+[1.438141] (herding_v1_package) StdoutLine: {'line': b'writing dependency_links to ../../build/herding_v1_package/herding_v1_package.egg-info/dependency_links.txt\n'}
+[1.438443] (herding_v1_package) StdoutLine: {'line': b'writing entry points to ../../build/herding_v1_package/herding_v1_package.egg-info/entry_points.txt\n'}
+[1.438589] (herding_v1_package) StdoutLine: {'line': b'writing requirements to ../../build/herding_v1_package/herding_v1_package.egg-info/requires.txt\n'}
+[1.438734] (herding_v1_package) StdoutLine: {'line': b'writing top-level names to ../../build/herding_v1_package/herding_v1_package.egg-info/top_level.txt\n'}
+[1.440663] (herding_v1_package) StdoutLine: {'line': b"reading manifest file '../../build/herding_v1_package/herding_v1_package.egg-info/SOURCES.txt'\n"}
+[1.440828] (herding_v1_package) StdoutLine: {'line': b"writing manifest file '../../build/herding_v1_package/herding_v1_package.egg-info/SOURCES.txt'\n"}
+[1.440977] (herding_v1_package) StdoutLine: {'line': b'running build\n'}
+[1.443239] (herding_v1_package) StdoutLine: {'line': b'running build_py\n'}
+[1.443406] (herding_v1_package) StdoutLine: {'line': b'copying herding_v1_package/herding_node.py -> /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package\n'}
+[1.443559] (herding_v1_package) StdoutLine: {'line': b'copying herding_v1_package/simulation.py -> /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package\n'}
+[1.443704] (herding_v1_package) StdoutLine: {'line': b'running install\n'}
+[1.443844] (herding_v1_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.444019] (herding_v1_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.448055] (herding_v1_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.449782] (herding_v1_package) StdoutLine: {'line': b'copying /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package/herding_node.py -> /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package\n'}
+[1.449935] (herding_v1_package) StdoutLine: {'line': b'copying /home/wyatt/ros2_ws/build/herding_v1_package/build/lib/herding_v1_package/simulation.py -> /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package\n'}
+[1.450047] (herding_v1_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package/herding_node.py to herding_node.cpython-310.pyc\n'}
+[1.450217] (herding_v1_package) StdoutLine: {'line': b'byte-compiling /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package/simulation.py to simulation.cpython-310.pyc\n'}
+[1.450356] (herding_v1_package) StdoutLine: {'line': b'running install_data\n'}
+[1.450468] (herding_v1_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.454967] (herding_v1_package) StdoutLine: {'line': b"removing '/home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.455284] (herding_v1_package) StdoutLine: {'line': b'Copying ../../build/herding_v1_package/herding_v1_package.egg-info to /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding_v1_package-0.0.0-py3.10.egg-info\n'}
+[1.455404] (herding_v1_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.481574] (herding_v1_package) StdoutLine: {'line': b'Installing herding_node script to /home/wyatt/ros2_ws/install/herding_v1_package/lib/herding_v1_package\n'}
+[1.482475] (herding_v1_package) StdoutLine: {'line': b"writing list of installed files to '/home/wyatt/ros2_ws/build/herding_v1_package/install.log'\n"}
+[1.498588] (herding_v1_package) CommandEnded: {'returncode': 0}
+[1.509953] (-) TimerEvent: {}
+[1.584952] (herding_v1_package) JobEnded: {'identifier': 'herding_v1_package', 'rc': 0}
+[1.587019] (-) EventReactorShutdown: {}

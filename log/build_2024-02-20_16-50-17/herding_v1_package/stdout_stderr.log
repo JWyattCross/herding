@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing herding_v1_package.egg-info/PKG-INFO
+writing dependency_links to herding_v1_package.egg-info/dependency_links.txt
+writing entry points to herding_v1_package.egg-info/entry_points.txt
+writing requirements to herding_v1_package.egg-info/requires.txt
+writing top-level names to herding_v1_package.egg-info/top_level.txt
+reading manifest file 'herding_v1_package.egg-info/SOURCES.txt'
+writing manifest file 'herding_v1_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wyatt/ros2_ws/install/herding_v1_package/lib/python3.10/site-packages/herding-v1-package.egg-link (link to .)
+Installing herding_node script to /home/wyatt/ros2_ws/install/herding_v1_package/lib/herding_v1_package
+
+Installed /home/wyatt/ros2_ws/build/herding_v1_package
+running install_data

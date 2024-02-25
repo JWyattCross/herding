@@ -1,0 +1,54 @@
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+from std_msgs.msg import Float64MultiArray
+import numpy as np
+from simulation import Simulation, Config, Agent, Target
+
+class MotionController(Node):
+    def __init__(self):
+        super().__init__('motion_controller')
+
+        # Set up parameters
+        self.dt = 0.001
+        self.tf = 5
+        self.k = 1
+
+        # Initialize simulation
+        self.config = Config(self.dt, self.tf, self.k)
+        self.simulation = Simulation(self.config)
+
+        # Publishers for robot velocities
+        self.agent1_vel_pub = self.create_publisher(Twist, '/agent1/cmd_vel', 10)
+        self.agent2_vel_pub = self.create_publisher(Twist, '/agent2/cmd_vel', 10)
+
+        # Timer to update motion
+        self.timer = self.create_timer(self.dt, self.update_motion)
+
+    def update_motion(self):
+        # Update simulation
+        self.simulation.run()
+
+        # Get velocities from simulation
+        agent1_vel = self.simulation.agent.velocities[:, -1]
+        agent2_vel = self.simulation.target.velocities[:, -1]
+
+        # Publish velocities
+        self.publish_velocity(self.agent1_vel_pub, agent1_vel)
+        self.publish_velocity(self.agent2_vel_pub, agent2_vel)
+
+    def publish_velocity(self, publisher, velocity):
+        twist_msg = Twist()
+        twist_msg.linear.x = velocity[0]
+        twist_msg.linear.y = velocity[1]
+        publisher.publish(twist_msg)
+
+def main(args=None):
+    rclpy.init(args=args)
+    motion_controller = MotionController()
+    rclpy.spin(motion_controller)
+    motion_controller.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
